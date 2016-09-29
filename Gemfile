@@ -4,7 +4,8 @@ ruby RUBY_VERSION
 gem "jekyll", "3.2.1"
 gem "minima"
 gem "html-proofer"
-gem 'kramdown'
+gem "kramdown"
+gem "solano"
 
 group :test do
 	gem "simplecov"
