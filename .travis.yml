@@ -13,11 +13,6 @@ branches:
   - /pages-(.*)/
   - master
 
-env:
-  global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-  - CODECLIMATE_REPO_TOKEN=b86b0613c255d3e33b4319513aa606305efb0d7ad613b1aa2dce85399d189afc
-
 addons:
   code_climate:
     repo_token: b86b0613c255d3e33b4319513aa606305efb0d7ad613b1aa2dce85399d189afc
