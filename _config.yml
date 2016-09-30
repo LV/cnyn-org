@@ -5,6 +5,7 @@ baseurl: ""
 url: "http://cnyn.org"
 twitter_username: cnyndfymex
 github_username:  lv
+google_analytics: UA-84147144-1
 
 # Build settings
 markdown: kramdown
