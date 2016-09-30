@@ -107,6 +107,7 @@ DEPENDENCIES
   rake
   rspec
   rspec_junit_formatter
+  sass
   simplecov
 
 RUBY VERSION
