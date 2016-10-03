@@ -110,6 +110,7 @@ DEPENDENCIES
   html-proofer
   jekyll (= 3.2.1)
   jekyll-coffeescript
+  jekyll-sass-converter
   kramdown
   minima
   rake

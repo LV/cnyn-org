@@ -7,6 +7,7 @@ gem "html-proofer"
 gem "kramdown"
 gem "sass"
 gem "jekyll-coffeescript"
+gem 'jekyll-sass-converter'
 
 group :test do
 	gem "simplecov"
