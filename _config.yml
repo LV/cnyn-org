@@ -1,3 +1,4 @@
+#Variables
 title: Club de Niños y Niñas
 email: info@cnyn.org
 description: La Página oficial del Club de Niños y Niñas del D.F. y Estado de México
@@ -13,3 +14,7 @@ theme: minima
 
 #Continuous integration
 exclude: [vendor]
+
+#Gems
+gems:
+ - jekyll-coffeescript

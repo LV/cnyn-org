@@ -6,6 +6,7 @@ gem "minima"
 gem "html-proofer"
 gem "kramdown"
 gem "sass"
+gem "jekyll-coffeescript"
 
 group :test do
 	gem "simplecov"
