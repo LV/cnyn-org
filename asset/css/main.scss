@@ -3,6 +3,7 @@
 ---
 @charset "utf-8";
 
+/*
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -37,3 +38,13 @@ $on-laptop:        800px;
 
 // Import partials from the `minima` theme.
 @import "minima";
+*/
+
+/* path to glyphicons */
+$icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+/* custom variable */
+$body-bg: red;
+
+/* any style customization must be before the bootstrap import */
+@import "bootstrap";
