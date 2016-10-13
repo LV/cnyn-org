@@ -8,6 +8,8 @@ gem "kramdown"
 gem "sass"
 gem "jekyll-coffeescript"
 gem 'jekyll-sass-converter'
+gem "bootstrap-sass"
+gem "sass-rails"
 
 group :test do
 	gem "simplecov"
