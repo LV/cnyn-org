@@ -5969,19 +5969,19 @@ a.badge:focus {
   border-top: 1px solid #e5e5e5;
 }
 
-.carousel {
+.slider {
   position: relative;
   margin-bottom: 20px;
   line-height: 1;
 }
 
-.carousel-inner {
+.slider-inner {
   position: relative;
   width: 100%;
   overflow: hidden;
 }
 
-.carousel-inner > .item {
+.slider-inner > .item {
   position: relative;
   display: none;
   -webkit-transition: 0.6s ease-in-out left;
@@ -5990,51 +5990,51 @@ a.badge:focus {
           transition: 0.6s ease-in-out left;
 }
 
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
+.slider-inner > .item > img,
+.slider-inner > .item > a > img {
   display: block;
   line-height: 1;
 }
 
-.carousel-inner > .active,
-.carousel-inner > .next,
-.carousel-inner > .prev {
+.slider-inner > .active,
+.slider-inner > .next,
+.slider-inner > .prev {
   display: block;
 }
 
-.carousel-inner > .active {
+.slider-inner > .active {
   left: 0;
 }
 
-.carousel-inner > .next,
-.carousel-inner > .prev {
+.slider-inner > .next,
+.slider-inner > .prev {
   position: absolute;
   top: 0;
   width: 100%;
 }
 
-.carousel-inner > .next {
+.slider-inner > .next {
   left: 100%;
 }
 
-.carousel-inner > .prev {
+.slider-inner > .prev {
   left: -100%;
 }
 
-.carousel-inner > .next.left,
-.carousel-inner > .prev.right {
+.slider-inner > .next.left,
+.slider-inner > .prev.right {
   left: 0;
 }
 
-.carousel-inner > .active.left {
+.slider-inner > .active.left {
   left: -100%;
 }
 
-.carousel-inner > .active.right {
+.slider-inner > .active.right {
   left: 100%;
 }
 
-.carousel-control {
+.slider-control {
   position: absolute;
   top: 40%;
   left: 15px;
@@ -6055,20 +6055,20 @@ a.badge:focus {
   filter: alpha(opacity=50);
 }
 
-.carousel-control.right {
+.slider-control.right {
   right: 15px;
   left: auto;
 }
 
-.carousel-control:hover,
-.carousel-control:focus {
+.slider-control:hover,
+.slider-control:focus {
   color: #ffffff;
   text-decoration: none;
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
 
-.carousel-indicators {
+.slider-indicators {
   position: absolute;
   top: 15px;
   right: 15px;
@@ -6077,7 +6077,7 @@ a.badge:focus {
   list-style: none;
 }
 
-.carousel-indicators li {
+.slider-indicators li {
   display: block;
   float: left;
   width: 10px;
@@ -6089,11 +6089,11 @@ a.badge:focus {
   border-radius: 5px;
 }
 
-.carousel-indicators .active {
+.slider-indicators .active {
   background-color: #fff;
 }
 
-.carousel-caption {
+.slider-caption {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -6103,17 +6103,17 @@ a.badge:focus {
   background: rgba(0, 0, 0, 0.75);
 }
 
-.carousel-caption h4,
-.carousel-caption p {
+.slider-caption h4,
+.slider-caption p {
   line-height: 20px;
   color: #ffffff;
 }
 
-.carousel-caption h4 {
+.slider-caption h4 {
   margin: 0 0 5px;
 }
 
-.carousel-caption p {
+.slider-caption p {
   margin-bottom: 0;
 }
 
